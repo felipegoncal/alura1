@@ -4,6 +4,13 @@
     --botão-azul:#167BF2;
     --cor-de-fundo:#00030C;
 }
-body{]
+
+<body
     baackground-color:var    (--cor-de-fundo);
+  color:val(--branco-principal);
+}
+
+{
+marging:0;
+padding:O;
 }
