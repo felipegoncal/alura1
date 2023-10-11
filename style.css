@@ -3,11 +3,15 @@
     --cinsa-secundario :#C0C0C0;
     --botão-azul:#167BF2;
     --cor-de-fundo:#00030C;
+    --fonte-principal:´inter`;
 }
 
 <body
     baackground-color:var    (--cor-de-fundo);
   color:val(--branco-principal);
+  font-family: val(--fonte-pricipal);
+  font-size:16px;
+  font-weight:400;
 }
 
 {
@@ -33,4 +37,14 @@ background-size: contain;
   padding: 1em;
   color: var(--branco-principal);
   display: block;
+}
+
+.botao_secundario{
+  background-color: transparent;
+  border: 2px solid val(--branco-principal);
+}
+
+.container__aviso{
+     font-size: 12px;
+     color: var(--cinsa-secundario);
 }
